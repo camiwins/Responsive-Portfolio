@@ -187,6 +187,10 @@ h1, p {
 
 @media screen and (max-width: 640px) {
 
+body {
+    width: 100%;
+}
+
 #logo {
     position: fixed;
     padding: 20px 0px 20px 0px;
@@ -197,10 +201,18 @@ h1, p {
 
 #mainhead {
     height: 140px;
+    width: 100%;
+    left: 0px;
 }
 
-#about-container{
-    width: 500px;
+#mainhead.container {
+    position: fixed;
+}
+
+#about-container, #about-section {
+    width: 550px;
+    margin: auto;
+    margin-top: 150px;
 }
 
 nav {
@@ -220,11 +232,15 @@ nav {
 }
 
 h1, p {
-    width: 480px;
+    width: 500px;
     padding-left: 10px;
 }
 
 #form-container, form {
     width: 400px
     
+}
+
+#footer-container, footer {
+    position: fixed;
 }
