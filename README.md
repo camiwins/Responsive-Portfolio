@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Homework assignment making a responsive portfolio
+# Bootstrap-Portfolio
+Portfolio made with Bootstrap
